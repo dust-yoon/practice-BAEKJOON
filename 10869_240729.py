@@ -1,0 +1,10 @@
+# 10869
+numbers = input()
+space = numbers.index(" ")
+A = int(numbers[ : space])
+B = int(numbers[space + 1 : ])
+print(A + B)
+print(A - B)
+print(A * B)
+print(A // B)
+print(A % B)
