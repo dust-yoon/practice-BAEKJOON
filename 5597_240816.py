@@ -1,4 +1,5 @@
 # 5597
+
 num = []
 for i in range(1,31):
       num.append(i)
