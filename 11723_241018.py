@@ -1,5 +1,8 @@
 # 11723 (집합)
 
+import sys
+input = sys.stdin.readline
+
 stack = set()
 
 def add(x):
