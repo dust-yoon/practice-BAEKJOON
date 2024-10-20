@@ -11,3 +11,9 @@ print(time.strftime('%Y-%m-%d'))
 #     datetime.timedelta(hours=9)
 # 3. time 출력
 #     sfrftime('%Y-%m-%d')
+
+print("       _.-;;-._")
+print("'-..-'|   ||   |")
+print("'-..-'|_.-;;-._|")
+print("'-..-'|   ||   |")
+print("'-..-'|_.-''-._|")
