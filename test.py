@@ -109,6 +109,11 @@
 # lst.flatten()
 # print(lst)
 
-name = 'dfsdfsdfsdf'
+# name = 'dfsdfsdfsdf'
 
-print(name, end='\n')
+# print(name, end='\n')
+
+from collections import deque
+
+stack = deque(input() for _ in range(5))
+print(stack)
