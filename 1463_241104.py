@@ -1,4 +1,5 @@
 # 1463 (1로 만들기)
+# 전혀 모르겠음 다시 이해 필요
 
 import sys
 input = sys.stdin.readline
