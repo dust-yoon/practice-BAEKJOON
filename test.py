@@ -117,3 +117,4 @@ from collections import deque
 
 stack = deque(input() for _ in range(5))
 print(stack)
+
