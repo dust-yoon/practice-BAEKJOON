@@ -1,4 +1,7 @@
 # 1463 (1로 만들기)
+
+
+
 # 전혀 모르겠음 다시 이해 필요
 
 import sys
@@ -36,3 +39,4 @@ for i in range(3, n + 1):
         dic[i] = min(dic[i // 2] + 1, dic[i])
 
 print(dic[n])
+
