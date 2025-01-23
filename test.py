@@ -113,8 +113,22 @@
 
 # print(name, end='\n')
 
-from collections import deque
+# from collections import deque
 
-stack = deque(input() for _ in range(5))
-print(stack)
+# stack = deque(input() for _ in range(5))
+# print(stack)
 
+# lst = [1,2,3,3]
+# print(max(lst))
+# print(lst.index(max(lst))) # 더 앞에 있는 걸 기준으로 
+# # find 시에는 -1 출력, 다만 문자열에서만 가능
+
+num = [12,3,4,5,6,345]
+nums = num.copy()
+nums.pop()
+print(id(num)==id(nums))
+print(num[len(num)-3:])
+
+num[len(num)-3:]=0,0,0
+print(num)
+print(bool([0,0,0]))
