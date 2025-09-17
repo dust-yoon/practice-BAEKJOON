@@ -1,0 +1,5 @@
+# 2742 (기찍 N)
+
+N = int(input())
+for i in range(N):
+    print(N-i)
